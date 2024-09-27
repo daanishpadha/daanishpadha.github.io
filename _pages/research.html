@@ -364,16 +364,22 @@ Additionally, we show that the 'auto-proxy' procedure—used to construct proxie
 <hr class="featurette-divider ">
 <div id="AE">
 <span style="font-size:20px; color: black; font-weight:bold"> Supervised Instruments in a Data-Rich Environment </span><br>
-<span style="font-size:17px"> (with Rajveer Jat) <br></span>
+<span style="font-size:17px">  <br></span>
  
 </div>
 
 <div>
-		<h3 class="featurette-heading ">  We employ supervision in deep learning methods to learn the underlying low-rank latent structure of the data. Then use 
-			this learning to forecast the out-of-sample time series. This method promises strong empirical performance. 
+		<h3 class="featurette-heading ">   
 		</h3>
-		 
-	 
+		
+	   <details>
+		<summary>Summary</summary>
+		<br>
+	
+	  This paper investigates the estimation of a causal parameter in the presence of many instruments, building on the framework proposed by Bai (2010). We consider a scenario where both the endogenous regressors and the instruments are driven by a few common factors. In such cases, using a large set of instruments can render the conventional two-stage least squares (2SLS) estimator inconsistent. However, the factor structure enables us to derive a smaller set of instruments, restoring the consistency of the 2SLS estimator.
+Our paper introduces several key innovations. First, we allow the factors driving the endogenous regressors to be a strict subset of the factors driving the larger set of instruments. This refinement enables a more efficient estimator compared to the one in Bai's framework. Additionally, we account for the possibility of weaker underlying factors, leading to weak instruments. Under certain conditions, which depend on the strength of both relevant and irrelevant factors, we demonstrate that inference on the causal parameter β can proceed as if the true instruments were observed. Specifically, the estimation error in the factor estimation process does not affect the asymptotic variance of the causal parameter.
+
+		</details>
 		  
 </div>
 	
@@ -381,7 +387,7 @@ Additionally, we show that the 'auto-proxy' procedure—used to construct proxie
 <!-- Autoencoder 3PRF -->
 <hr class="featurette-divider ">
 <div id="AE">
-<span style="font-size:20px; color: black; font-weight:bold"> Supervised Deep Dynamic Factor Models for Forecasting </span><br>
+<span style="font-size:20px; color: black; font-weight:bold"> Supervised Deep Dynamic Factor Models</span><br>
 <span style="font-size:17px"> (with <a href="https://rajveerjat.com" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
 			<b>Rajveer Jat</b></a>&nbsp;)  <br></span>
  
@@ -392,8 +398,8 @@ Additionally, we show that the 'auto-proxy' procedure—used to construct proxie
 	</div>		  		
   	 
   <div class="column right">
-		<h3 class="featurette-heading ">  We employ supervision in deep learning methods to learn the underlying low-rank latent structure of the data. Then use 
-			this learning to forecast the out-of-sample time series. This method promises strong empirical performance. 
+		<h3 class="featurette-heading ">  We use a neural network to forecast a single time series. Inspired by the "Targeted Predictors" approach from Bai (2008), we first select a set of predictors by performing polynomial regression for each predictor individually. 
+			Unlike traditional factor models, which limit the search to an underlying planar structure, our approach explores a non-linear, low-dimensional representation of the predictors which best explain y. 
 		</h3>
 		 
 	 
