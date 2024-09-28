@@ -29,11 +29,11 @@ author_profile: true
 
 ## Selected Comments from Students
 
-give my mans Daanish a tenure! Skip the years of professorship, Daanish is ready to teach full lecture halls of young economic majors of the future. Great lecturer, at times more informative and clear than the professor himself. Wonderful young man and a life save in this course. I wish he would have shown us his pets! I hear them barking occasionally in the background :-)
+He is a good teacher. In fact, he is better than the professor at explaining the lecture and solving the problems. He basically taught me everything. Everything I learned in this course was because of Daanish.
 
 A very kind and fair TA, I wish him the best and I'm very grateful for having him this quarter
 
-He is a good teacher. In fact, he is better than the professor at explaining the lecture and solving the problems. He basically taught me everything. Everything I learned in this course was because of Daanish.
+Give my man Daanish a tenure! Skip the years of professorship, Daanish is ready to teach full lecture halls of young economic majors of the future. Great lecturer, at times more informative and clear than the professor himself. Wonderful young man and a life save in this course. I wish he would have shown us his pets! I hear them barking occasionally in the background :-)
 
 Great TA. He was always organzied and helpful.
 
