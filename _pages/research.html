@@ -187,15 +187,24 @@ img {vertical-align: middle;}
 		 <details>
 		<summary>Summary</summary>
 		<br>
-		 We extend the paper on Three-Pass Regression Filter (3PRF)  along two significant dimensions. First, we account for scenarios where the factor(s) may be weak. Second, we allow for a correlation between the target variable and the predictors, even after adjusting for common factor(s), which arises from the correlation between the idiosyncratic components of the covariates and the prediction target.
-
-Our primary theoretical contribution is to establish the consistency of the Three-Pass Regression Filter in estimating target-relevant factors under these broader assumptions. We show that these factors can be consistently estimated even when weak, though at a slower rate than strong factors. The convergence rate for the target variable, coefficients, and factors improves with the strength of relevant factors but decreases with stronger irrelevant factors.
-
-Our second contribution is methodological: we introduce a Lasso step, creating the 3PRF-Lasso estimator, to model the dependence of the target on the idiosyncratic components of the predictors. We derive the rate at which the average prediction from this step converges to zero, taking into consideration the impact of generated regressors.  
-
-Extensive simulations show that while 3PRF remains competitive under these modified assumptions, its advantage over other methods diminishes in some scenarios. Adding the Lasso step significantly improves performance, even when only a few idiosyncratic components are correlated with the target variable.
-
-In our empirical application, we use the 3PRF-Lasso framework to forecast GDP, Employment, and private fixed investment from the FRED-QD dataset. The method demonstrates strong performance compared to alternatives across all three variables in both the short run and the longer horizon.
+		We extend the paper on Three-Pass Regression Filter (3PRF) by Kelly & Pruitt [2015] along
+two significant dimensions. First, we account for scenarios where the factor(s) may be weak. Sec-
+ond, we allow for a correlation between the target variable and the predictors, even after adjusting
+for common factor(s), which arises from the correlation between the idiosyncratic components of
+the covariates and the prediction target.Our primary theoretical contribution is to establish the consistency of the Three-Pass Regres-
+sion Filter in estimating target-relevant factors under these broader assumptions. We show that
+these factors can be consistently estimated even when weak, though at a slower rate than strong
+factors. The convergence rate for the target variable, coefficients, and factors improves with the
+strength of relevant factors but decreases with stronger irrelevant factors.
+Our second contribution is methodological: we introduce a Lasso step, creating the 3PRF-
+Lasso estimator, to model the dependence of the target on the idiosyncratic components of the
+predictors. We derive the rate at which the average prediction from this step converges to zero,
+taking into consideration the impact of generated regressors. Extensive simulations show that 3PRF performs better than PCR even under these modified
+assumptions and adding the Lasso step significantly improves performance, even when only a few
+idiosyncratic components are correlated with the target variable. In our empirical application, we utilize the 3PRF-LASSO framework to forecast GDP, Ex-
+ports, the GDP Deflator, and Housing Starts, drawing on a large set of predictors from the
+FRED-QD dataset. Our method demonstrates robust performance relative to alternative ap-
+proaches across all four variables and various forecasting horizons.
  
 
 		</details>
