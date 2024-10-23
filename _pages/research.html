@@ -403,13 +403,13 @@ Our paper introduces several key innovations. First, we allow the factors drivin
 			<b>Rajveer Jat</b></a>&nbsp;)  <br></span>
 </div>
 
-<!-- Adjusted layout to place summary on the left and expand text fully -->
-<div class="row">
-  <div class="column left">
-    <details style="width: 100%;">
+<!-- Adjusted layout to expand text fully -->
+<div class="row" style="width: 100%;">
+  <div style="width: 100%;"> <!-- Removed the column class -->
+    <details>
       <summary>Summary</summary>
       <br>
-      <p style="text-align: left;">
+      <p style="text-align: left; width: 100%;">
         We use a neural network to forecast a single time series. Inspired by the "Targeted Predictors" approach from Bai (2008), we first select a set of predictors by performing polynomial regression for each predictor individually. 
         Unlike traditional factor models, which limit the search to an underlying planar structure, our approach explores a non-linear, low-dimensional representation of the predictors which best explain y.
       </p>
