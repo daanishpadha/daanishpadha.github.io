@@ -158,13 +158,6 @@ img {vertical-align: middle;}
 
 <!-- Job Market Paper -->
 <hr class="featurette-divider ">
-<div align="center" id="Pub">
-<h1> Job Market Paper </h1> <br>
-</div>
-
-	
-<!-- JMP -->
-<hr class="featurette-divider ">
 <div id="JMP">
 <span style="font-size:20px; color: black; font-weight:bold"> Forecasting Using Supervised Factors and Idiosyncratic Elements </span><br>
 <span style="font-size:17px"> <br></span>
@@ -172,23 +165,24 @@ img {vertical-align: middle;}
 	                       </span> 
 </div>
 <div class="row">
-	
-	
-		 <h3 class="featurette-heading ">  
-		
-  </h3>
-		
+	<div class="column left">
+          <img class="img-thumbnail img-responsive " src="../images/AE.png" onclick="op(this.src)">
+	</div>		
+  <div class="column right">
+<!-- 		<h3 class="featurette-heading ">  We propose a novel supervised and non-linear method of forecasting a single time series 
+			using a high-dimensional set of predictors. The method is computationally efficient and demonstrates strong empirical performance, 
+			particularly over longer forecast horizons.</h3>  -->
 		 
-		 <h3>
-			<a href="http://daanishpadha.github.io/files/JMP.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none; ">
+	  <h3> 
+			<a href="http://daanishpadha.github.io/files/JMP.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
 			<b>[Paper]</b></a>&nbsp;
-		</h3> 
+	  </h3> 
 		 
 		 
 		 <details>
- 		<summary>Summary</summary>  
+		<summary>Summary</summary>
 		<br>
-		We extend the paper on Three-Pass Regression Filter (3PRF) by Kelly & Pruitt [2015] along
+			We extend the paper on Three-Pass Regression Filter (3PRF) by Kelly & Pruitt [2015] along
 two significant dimensions. First, we account for scenarios where the factor(s) may be weak. Sec-
 ond, we allow for a correlation between the target variable and the predictors, even after adjusting
 for common factor(s), which arises from the correlation between the idiosyncratic components of
@@ -205,10 +199,9 @@ assumptions and adding the Lasso step significantly improves performance, even w
 idiosyncratic components are correlated with the target variable. In our empirical application, we utilize the 3PRF-LASSO framework to forecast GDP, Exports, the GDP Deflator, and Housing Starts, drawing on a large set of predictors from the
 FRED-QD dataset. Our method demonstrates robust performance relative to alternative ap-
 proaches across all four variables and various forecasting horizons.
- 
-
-		</details>
-		
+ 		</details>
+		 
+		</div>
 </div>
 
 	
@@ -222,6 +215,7 @@ proaches across all four variables and various forecasting horizons.
 <h1> Working Papers </h1> <br>
 </div>
 
+	
 	
 <!-- Kernel 3PRF -->
 <hr class="featurette-divider ">
