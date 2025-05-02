@@ -11,7 +11,7 @@ Welcome!
 
 I am a Ph.D. Candidate in Economics at University of California, Riverside.
 
-I am on the job market this 2024/2025.
+I will be joining the Adam Smith Business School at the University of Glasgow as an Assistant Professor of Econometrics this fall.
 
 My research interests are High dimensional Econometrics, Machine Learning, Forecasting and Causal Inference.
 
